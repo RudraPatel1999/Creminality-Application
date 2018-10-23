@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username/Email"
+            android:layout_marginTop="15dp"
+            android:id="@+id/usname"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="5dp"
+            android:id="@+id/pwd"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="110dp"
+            android:text="Remeber login details"
+            android:layout_marginTop="5dp"
+            android:id="@+id/checkbox"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn1"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Sign up"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="Forgot Password ?"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/txt1"/>
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Skip >>"
+            android:background="@null"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginLeft="139dp"
+            android:id="@+id/skip"/>
+
+    </LinearLayout>
+</LinearLayout>
